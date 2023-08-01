@@ -8,25 +8,25 @@
 // 4 / 2,
 // поместив результат каждого выражения в соответствующую 
 // переменную. Например, let a1 = 7 + 2. Результаты переменных вывести в console.log();
-let a1 = 7+2; // 9
-let a2 = 7-3;// 4
-let a3 = 2*4;// 8
-let a4 = 4/2;// 2
-console.log(a1);
-console.log(a2);
-console.log(a3);
-console.log(a4);
+//let a1 = 7+2; // 9
+//let a2 = 7-3;// 4
+//let a3 = 2*4;// 8
+//let a4 = 4/2;// 2
+//console.log(a1);
+//console.log(a2);
+//console.log(a3);
+//console.log(a4);
 
 
 // Пример №2
 // Напишите скрипт, который находит площадь прямоугольника высота 23см. 
 // (в числовую переменную height), шириной 10см (в числовую переменную width), 
 // значение площади должно хранится в числовой переменной s. (S=a*b);
-let height = 23;
-let width = 10;
-let s;
-s = height * width;
-console.log(`S = ${s}`);
+//let height = 23;
+//let width = 10;
+//let s;
+//s = height * width;
+//console.log(`S = ${s}`);
 
 
 // Пример №3
@@ -39,7 +39,7 @@ console.log(`S = ${s}`);
 
 // Пример №4
 // Напишите скрипт, который считает количество секунд в часе.
-console.log(60 * 60);
+//console.log(60 * 60);
 
 // Пример №5
 // Переделайте приведенный код так, чтобы в нем использовались операции 
@@ -53,14 +53,15 @@ console.log(60 * 60);
 // num = num + 1;
 // num = num - 1;
 // console.log(num);
-let num = 1;
-num += 12;
-num -= 14;
-num *= 5;
-num /= 7;
-num ++;
-num --; 
-console.log(num);
+
+//let num = 1;
+//num += 12;
+//num -= 14;
+//num *= 5;
+//num /= 7;
+//num ++;
+//num --; 
+//console.log(num);
 
 
 // ДОМАШНЕЕ ЗАДАНИЕ
@@ -73,6 +74,17 @@ console.log(num);
 // '5' - 3,
 // 75 + 'кг'
 // Результаты переменных вывести в console.log();
+
+let b1 = 5 % 3;
+let b2 = 3 % 5;
+let b3 = 5 + '3';
+let b4 = '5' - 3;
+let b5 = 75 + 'кг';
+console.log(b1);
+console.log(b2);
+console.log(b3);
+console.log(b4);
+console.log(b5);
 
 // Пример №2 
 // Напиши скрипт, который находит объем цилиндра высотой 10м (переменная heightC) и 
@@ -89,11 +101,11 @@ console.log(`V = ${v}`);
 
 //let a = 10;
 //let b = 2;
-//console.log(a + b, a - b, a * b, a / b,); Как вариант.
-//console.log(a + b);
-//console.log(a - b);
-//console.log(a * b);
-//console.log(a / b);
+//alert(a + b, a - b, a * b, a / b,); Как вариант.
+//alert(a + b);
+//alert(a - b);
+//alert(a * b);
+//alert(a / b);
 
 // Пример №4
 //  Создайте переменные c=15 и d=2. Просуммируйте их, а результат присвойте переменной result. 
@@ -163,6 +175,13 @@ console.log(31 * 86400);
 // num = num / 15;
 // console.log(num);
 
+ let num = 47;
+ num = num + 7;
+ num = num - 18;
+ num = num * 10;
+ num = num / 15;
+ console.log(num);
+
 // Пример №12
 // Переделайте этот код так, чтобы в нем использовались операции ++ и --. 
 // Количество строк кода при этом не должно измениться.
@@ -171,3 +190,9 @@ console.log(31 * 86400);
 // num = num + 1;
 // num = num - 1;
 // console.log(num);
+
+ //let num = 10;
+ //num = num + 1;
+ //num = num ++;
+ //num = num --;
+ //console.log(num);
