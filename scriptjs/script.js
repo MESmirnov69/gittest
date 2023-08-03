@@ -101,11 +101,10 @@ console.log(`V = ${v}`);
 
 //let a = 10;
 //let b = 2;
-//alert(a + b, a - b, a * b, a / b,); Как вариант.
-//alert(a + b);
-//alert(a - b);
-//alert(a * b);
-//alert(a / b);
+//console.log(a + b);
+//console.log(a - b);
+//console.log(a * b);
+//console.log(a / b);
 
 // Пример №4
 //  Создайте переменные c=15 и d=2. Просуммируйте их, а результат присвойте переменной result. 
@@ -140,13 +139,13 @@ console.log(`V = ${v}`);
 // Создайте переменную name и присвойте ей ваше имя. Выведите на экран фразу 'Привет, (Имя)!'.
 
 //let name = 'Максим';
-//alert(`Привет, ${name}!`);
+//console.log(`Привет, ${name}!`);
 
 // Пример №8
 // Создайте переменную age и присвойте ей ваш возраст. Выведите на экран 'Мне (Возраст) лет!'.
 
 //let age = 33; 
-//alert(`Мне ${age} лет!`);
+//console.log(`Мне ${age} лет!`);
 
 // Пример №9
 // Создайте переменную str и присвойте ей значение 'abcde'. Обращаясь к отдельным символам этой строки выведите 
@@ -175,12 +174,12 @@ console.log(31 * 86400);
 // num = num / 15;
 // console.log(num);
 
- let num = 47;
- num = num + 7;
- num = num - 18;
- num = num * 10;
- num = num / 15;
- console.log(num);
+//let num = 47;
+ //num += 7;
+ //num -= 18;
+ //num *= 10;
+ //num /= 15;
+ //console.log(num);
 
 // Пример №12
 // Переделайте этот код так, чтобы в нем использовались операции ++ и --. 
@@ -191,8 +190,8 @@ console.log(31 * 86400);
 // num = num - 1;
 // console.log(num);
 
- //let num = 10;
- //num = num + 1;
- //num = num ++;
- //num = num --;
- //console.log(num);
+ let num = 10;
+ num ++;
+ num ++;
+ num --;
+console.log(num);
