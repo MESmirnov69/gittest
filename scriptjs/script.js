@@ -195,3 +195,5 @@ console.log(31 * 86400);
  num ++;
  num --;
 console.log(num);
+
+//PRACTICE 1
