@@ -75,26 +75,26 @@
 // 75 + 'кг'
 // Результаты переменных вывести в console.log();
 
-let b1 = 5 % 3;
-let b2 = 3 % 5;
-let b3 = 5 + '3';
-let b4 = '5' - 3;
-let b5 = 75 + 'кг';
-console.log(b1);
-console.log(b2);
-console.log(b3);
-console.log(b4);
-console.log(b5);
+//let b1 = 5 % 3;
+//let b2 = 3 % 5;
+//let b3 = 5 + '3';
+//let b4 = '5' - 3;
+//let b5 = 75 + 'кг';
+//console.log(b1);
+//console.log(b2);
+//console.log(b3);
+//console.log(b4);
+//console.log(b5);
 
 // Пример №2 
 // Напиши скрипт, который находит объем цилиндра высотой 10м (переменная heightC) и 
 // диаметром основания 4м (dC), результат поместите в переменную v.
 
-let heightC = 10;
-let dC = 4;
-let v;
-v = heightC * dC;
-console.log(`V = ${v}`);
+//let heightC = 10;
+//let dC = 4;
+//let v;
+//v = heightC * dC;
+//console.log(`V = ${v}`);
 
 // Пример №3
 // Создайте переменные a=10 и b=2. Выведите на экран их сумму, разность, произведение и частное (результат деления).
@@ -151,17 +151,17 @@ console.log(`V = ${v}`);
 // Создайте переменную str и присвойте ей значение 'abcde'. Обращаясь к отдельным символам этой строки выведите 
 // на экран символ 'a', символ 'c', символ 'e'.
 
-let str = 'abcde';
-console.log(str[0]);
-console.log(str[2]);
-console.log(str[4]);
+//let str = 'abcde';
+//console.log(str[0]);
+//console.log(str[2]);
+//console.log(str[4]);
 
 //Пример №10
 // Напишите скрипт, который считает количество секунд в часе, в сутках, в месяце.
 
-console.log(60 * 60);
-console.log(24 * 3600);
-console.log(31 * 86400);
+//console.log(60 * 60);
+//console.log(24 * 3600);
+//console.log(31 * 86400);
 
 
 //Пример №11
@@ -190,10 +190,10 @@ console.log(31 * 86400);
 // num = num - 1;
 // console.log(num);
 
- let num = 10;
- num ++;
- num ++;
- num --;
-console.log(num);
+ //let num = 10;
+ //num ++;
+ //num ++;
+ //num --;
+//console.log(num);
 
 //PRACTICE 1
