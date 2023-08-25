@@ -46,3 +46,13 @@
 // let min = Number.MIN_VALUE;
 // console.log(min);
 //максимальное и минимальное значкение в жава скрипт
+// 'use strict';
+// let user = ['Makeenko','Andrey', 28];
+// user.sort();
+// user.reverse();
+// console.log(user);
+
+// user.push(180);
+// console.log(user);
+// user.shift();
+// user.unshift(180);\
