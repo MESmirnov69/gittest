@@ -4,16 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>первое приложение</title>
 </head>
-<body>
-    <h1>hello</h1>
-    <p>SMIRNOV</p>
-    <p>MAKSIM</p>
-    <script src="/scriptjs/test.js"></script>
-    <script src="/scriptjs/script.js"></script>
-    <script src="/scriptjs/practice2.js"></script>
-    <script src="/scriptjs/practical3.js"></script>
-    <script src="scriptjs/practical4.js"></script>
+<div>
+    <div class="container">
+    <div class="item">
+        <h1>Задача 1</h1>
+        <button class="btn" onclick="buttonClickTwo()">Нажмите на меня</button>
+        <p>Ку-ку! А я
+        <span class="texttwo" id="texttwo">жирный!</span>
+        </p>
+    </div>
+    <div class="item">
+        <h1>Задача 2</h1>
+    <button class="btn" onclick="buttonClick()">Нажмите на меня</button>
+    <p id="textone">При нажатии на кнопку текст в абзаце поменяется.</p>
+    </div>
+    <div class="item">
+        <h1>Задача 3</h1>
+    <button class="btn" onclick="buttonClickTree()">Нажмите на меня</button>
+    <p id="texttree">При нажатии на кнопку абзац станет h3 но текст останется.</p>
+    </div>
+    <div class="item">
+        <h1>Задача 5</h1>
+        <p class="a">Абзац с текстом</p>
+        <p class="a">Абзац с текстом</p>
+        <p class="a">Абзац с текстом</p>
+        <p class="a">Абзац с текстом</p>
+        <input type="submit" value="нажмите на меня" onclick="func()">
+    </div>
+    </div>
+    <h2 class="form_h2"> Задача 4 </h2>
+    <div class="calc">
+        <form>
+            <input id="a" type="text" value="1"> +
+            <input id="b" type="text" value="1"> = 
+            <div id="result"></div>
+        </form>
+    </div>
+    <input class="btn_calc" type="button" value="Нажмите что бы сложить" onclick="addition();">
+</div>
 </body>
+<script src="scriptjs/practice5.js" ></script>
 </html>
